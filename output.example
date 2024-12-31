@@ -1,0 +1,128 @@
+output 1: 1_groq_ai_agent.py
+
+┏━ Message ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                 ┃
+┃ write two senteces on new year                                                                                                  ┃
+┃                                                                                                                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┏━ Response (1.4s) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                 ┃
+┃ As the clock strikes midnight, people from all over the world come together to celebrate the start of a new year, filled with   ┃
+┃ hope, promise, and fresh beginnings. The New Year is a time for reflection, resolution, and renewal, a chance to leave the past ┃
+┃ behind and look forward to the exciting possibilities that the future holds.                                                    ┃
+┃                                                                                                                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+output 2: 2_finance_agent.py
+
+----------------- Grog AI -----------------
+┏━ Message ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                 ┃
+┃ Summarize and compare analyst recommendations and fundamentals for Apple and Salesforce                                         ┃
+┃                                                                                                                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┏━ Response (11.7s) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                 ┃
+┃ Running:                                                                                                                        ┃
+┃                                                                                                                                 ┃
+┃  • get_company_symbol(company_name=Apple)                                                                                       ┃
+┃  • get_company_symbol(company_name=Salesforce)                                                                                  ┃
+┃  • get_analyst_recommendations(symbol=AAPL)                                                                                     ┃
+┃  • get_analyst_recommendations(symbol=CRM)                                                                                      ┃
+┃  • get_stock_fundamentals(symbol=AAPL)                                                                                          ┃
+┃  • get_stock_fundamentals(symbol=CRM)                                                                                           ┃
+┃                                                                                                                                 ┃
+┃                                                         Company Symbols                                                         ┃
+┃                                                                                                                                 ┃
+┃ The company symbols for Apple and Salesforce are AAPL and CRM respectively.                                                     ┃
+┃                                                                                                                                 ┃
+┃                                                     Analyst Recommendations                                                     ┃
+┃                                                                                                                                 ┃
+┃ The analyst recommendations for Apple and Salesforce are as follows:                                                            ┃
+┃                                                                                                                                 ┃
+┃                                                                                                                                 ┃
+┃            Apple                                           Apple       Salesfo…                                      Salesfo…   ┃
+┃            Strong                  Apple       Apple       Strong      Strong     Salesfor…   Salesfo…   Salesfor…   Strong     ┃
+┃   Period   Buy         Apple Buy   Hold        Sell        Sell        Buy        Buy         Hold       Sell        Sell       ┃
+┃  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
+┃   0m       8           24          12          1           2           13         24          13         0           1          ┃
+┃   -1m      8           24          12          1           2           15         25          11         0           1          ┃
+┃   -2m      8           23          12          1           2           14         25          11         0           1          ┃
+┃   -3m      8           24          12          0           2           14         24          12         0           1          ┃
+┃                                                                                                                                 ┃
+┃                                                                                                                                 ┃
+┃                                                       Stock Fundamentals                                                        ┃
+┃                                                                                                                                 ┃
+┃ The stock fundamentals for Apple and Salesforce are as follows:                                                                 ┃
+┃                                                                                                                                 ┃
+┃                                                                                                                                 ┃
+┃                    Apple                  Salesforce                                                                            ┃
+┃  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                                                               ┃
+┃   Symbol           AAPL                   CRM                                                                                   ┃
+┃   Company Name     Apple Inc.             Salesforce, Inc.                                                                      ┃
+┃   Sector           Technology             Technology                                                                            ┃
+┃   Industry         Consumer Electronics   Software - Application                                                                ┃
+┃   Market Cap       3812204478464          321303183360                                                                          ┃
+┃   PE Ratio         30.3542                29.903042                                                                             ┃
+┃   PB Ratio         66.94983               5.465675                                                                              ┃
+┃   Dividend Yield   0.004                  0.0047999998                                                                          ┃
+┃   EPS              6.08                   6.08                                                                                  ┃
+┃   Beta             1.24                   1.288                                                                                 ┃
+┃   52 Week High     260.1                  369.0                                                                                 ┃
+┃   52 Week Low      164.08                 212.0                                                                                 ┃
+┃                                                                                                                                 ┃
+┃                                                                                                                                 ┃
+┃ Overall, both Apple and Salesforce have similar analyst recommendations and stock fundamentals. However, Apple has a higher     ┃
+┃ market capitalization and a higher price-to-book ratio, while Salesforce has a higher dividend yield and a higher beta value.   ┃
+┃                                                                                                                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+output 3: 3_agent_teams.py
+
+┏━ Message ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                 ┃
+┃ Summarize analyst recommendations and share teh latest news for RDDT                                                            ┃
+┃                                                                                                                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┏━ Response (8.3s) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                 ┃
+┃ Running:                                                                                                                        ┃
+┃                                                                                                                                 ┃
+┃  • transfer_task_to_finance_agent(task_description=Summarize analyst recommendations for RDDT, expected_output=A summary of     ┃
+┃    analyst recommendations, additional_information=RDDT stock ticker)                                                           ┃
+┃  • transfer_task_to_web_agent(task_description=Find the latest news for RDDT, expected_output=A summary of the latest news,     ┃
+┃    additional_information=RDDT stock ticker)                                                                                    ┃
+┃                                                                                                                                 ┃
+┃                                              Summary of Latest News for RDDT Stock                                              ┃
+┃                                                                                                                                 ┃
+┃ According to recent news articles, RDDT stock has had a stellar year in 2024, with a 250% surge in its stock price from its     ┃
+┃ first-day close following its debut listing in March. Analysts are bullish that the company can sustain its momentum in 2025.   ┃
+┃ However, the stock gapped down prior to trading on Monday, with a volume of 1, and last traded at $163.41.                      ┃
+┃                                                                                                                                 ┃
+┃ Some key points from the news articles include:                                                                                 ┃
+┃                                                                                                                                 ┃
+┃  • Reddit's advertising and data licensing revenue shows no signs of slowdown, while profitability expands.                     ┃
+┃  • The company's CTO, Christopher Brian Slowe, sold 11,000 shares of the stock in a transaction on Monday, December 23rd.       ┃
+┃  • Analysts are predicting that the stock will continue to perform well in 2025, with some expecting it to build on its red-hot ┃
+┃    debut.                                                                                                                       ┃
+┃                                                                                                                                 ┃
+┃ Sources:                                                                                                                        ┃
+┃                                                                                                                                 ┃
+┃  • MSN                                                                                                                          ┃
+┃  • ETF Daily News                                                                                                               ┃
+┃  • Seeking Alpha                                                                                                                ┃
+┃                                                                                                                                 ┃
+┃                                                Analyst Recommendations for RDDT                                                 ┃
+┃                                                                                                                                 ┃
+┃ The analyst recommendations for RDDT are as follows:                                                                            ┃
+┃                                                                                                                                 ┃
+┃                                                                                                                                 ┃
+┃   Period   Strong Buy   Buy   Hold   Sell   Strong Sell                                                                         ┃
+┃  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                                                                        ┃
+┃   0m       5            8     5      0      1                                                                                   ┃
+┃   -1m      4            6     6      0      1                                                                                   ┃
+┃   -2m      4            6     6      0      1                                                                                   ┃
+┃   -3m      4            5     6      0      1                                                                                   ┃
+┃                                                                                                                                 ┃
+┃                                                                                                                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
