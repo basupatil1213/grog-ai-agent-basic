@@ -45,13 +45,13 @@ The `grog-ai-agent-basic` project is a collection of AI agents designed to perfo
     ```
 
 ## Example Outputs
-The [output.example](http://_vscodecontentref_/2) file contains example outputs from running the different agents. It showcases the types of responses you can expect from the agents, including text generation and financial data summaries.
+The [output.example](https://github.com/basupatil1213/grog-ai-agent-basic/blob/main/output.example) file contains example outputs from running the different agents. It showcases the types of responses you can expect from the agents, including text generation and financial data summaries.
 
 ## Phidata
 This project utilizes the `phidata` library, which provides tools and models for building AI agents. It includes integrations with various APIs and services, making it easier to develop and deploy AI-driven applications.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](http://_vscodecontentref_/3) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/basupatil1213/grog-ai-agent-basic/blob/main/LICENSE) file for details.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
